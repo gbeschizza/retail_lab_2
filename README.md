@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ## Limitations
 
 - The test set was also used as the evaluation set for early stopping and for comparing tuned models, so the reported metrics may be slightly optimistic. A separate validation split would be a cleaner setup.
-- The dataset appears to be synthetic or course-provided; results may not generalize to real customer data.
+- The dataset is course-provided; results may not generalize to real customer data.
 - LLM sentiment was validated on only 30 manually labeled reviews.
 
 ## Tech stack
